@@ -1,4 +1,4 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 /* CSS Document */
 
 /* supported: IE 9 +, android 4.2.2 + */
@@ -82,6 +82,16 @@ body {
 	min-height: 42px; /*Фиксированная минимальная высота, так как если
 	                    использовать паддинги, то появляется непонятная 
 						лишняя толщина в 1 пиксель*/
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;					
+	box-sizing: border-box;
+	border: none;
+	font-size: 17px;
+	line-height: 1.1;
+	color: #fff;
+	background-color: #293449;
+	outline: none;
+	font-family: 'cuprumregular', sans-serif;
 	
 }
 /* шрифт * на множитель высоты строки = 17 * 1,1 = примерно 18px,
