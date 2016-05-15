@@ -59,13 +59,14 @@ body {
 	position: relative;
 }
 .search-form button[type="submit"] {
+	margin: 0;
+	padding: 0;
 	position: absolute;
 	left: 13px;
 	top: 50%;
 	margin-top: -9px;
 	border: none;
 	background: none;
-	padding: 0;
 	font-size: 17px;
 	line-height: 18px;
 	cursor: pointer;
