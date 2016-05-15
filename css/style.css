@@ -58,12 +58,6 @@ body {
 	width: 270px;
 	position: relative;
 }
-.search-form button[type="submit"] i {
-	color: #fff;
-	opacity: .3;
-	background-color: #FF0004;
-	font-family: 'symbols-technomart';
-}
 .search-form button[type="submit"] {
 	position: absolute;
 	left: 13px;
