@@ -46,7 +46,7 @@ body {
 	text-align: center;
 	text-decoration: none;
 	font-family: 'cuprumbold', sans-serif;
-	font-size: 24px;
+	font-size: 34px;
 	line-height: 1.1;
 	text-transform: uppercase;
 	color: #fff;
@@ -76,18 +76,17 @@ body {
 
 .search-form input[type="search"] {
 	padding-left: 50px;
-	width: 200px;
+	width: 100%;
 	min-height: 42px; /*Фиксированная минимальная высота, так как если
 	                    использовать паддинги, то появляется непонятная 
 						лишняя толщина в 1 пиксель*/				
 	border: none;
-	font-size: 17px;
+	font-size: 67px;
 	line-height: 1.1;
 	color: #fff;
 	background-color: #293449;
 	outline: none;
 	font-family: 'cuprumregular', sans-serif;
-	background-color: #DDDDDD;
 }
 
 /* шрифт * на множитель высоты строки = 17 * 1,1 = примерно 18px,
@@ -99,7 +98,7 @@ body {
 	background-color: #293449;
 	padding: 12px 0;
 	width: 150px;
-	font-size: 17px;
+	font-size: 27px;
 	line-height: 1.1;
 	text-decoration: none;
 	color: #fff;
