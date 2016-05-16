@@ -59,7 +59,6 @@ body {
 	position: relative;
 }
 .search-form button[type="submit"] {
-	margin: 0;
 	padding: 0;
 	position: absolute;
 	left: 13px;
@@ -74,17 +73,13 @@ body {
 	color: #fff;
 	opacity: .3;
 }
+
 .search-form input[type="search"] {
-	padding: 0;
-	margin: 0;
 	padding-left: 50px;
-	width: 100%;
+	width: 200px;
 	min-height: 42px; /*Фиксированная минимальная высота, так как если
 	                    использовать паддинги, то появляется непонятная 
-						лишняя толщина в 1 пиксель*/
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;					
-	box-sizing: border-box;
+						лишняя толщина в 1 пиксель*/				
 	border: none;
 	font-size: 17px;
 	line-height: 1.1;
@@ -92,8 +87,9 @@ body {
 	background-color: #293449;
 	outline: none;
 	font-family: 'cuprumregular', sans-serif;
-	
+	background-color: #DDDDDD;
 }
+
 /* шрифт * на множитель высоты строки = 17 * 1,1 = примерно 18px,
 и + паддинг 12px сверху и снизу = 18 + 12 + 12 = 42px.
 Теперь если увеличить размер шрифта, то высота строки так же увеличиться */
