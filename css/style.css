@@ -2,6 +2,7 @@
 /* CSS Document */
 
 /* supported: IE 9 +, android 4.2.2 + */
+
 /*
 opacity: IE 9 +, android 4.2 + 
 box-sizing: IE 8 + android 4.2 + 
@@ -46,7 +47,7 @@ body {
 	text-align: center;
 	text-decoration: none;
 	font-family: 'cuprumbold', sans-serif;
-	font-size: 34px;
+	font-size: 24px;
 	line-height: 1.1;
 	text-transform: uppercase;
 	color: #fff;
@@ -81,7 +82,7 @@ body {
 	                    использовать паддинги, то появляется непонятная 
 						лишняя толщина в 1 пиксель*/				
 	border: none;
-	font-size: 67px;
+	font-size: 17px;
 	line-height: 1.1;
 	color: #fff;
 	background-color: #293449;
@@ -98,7 +99,7 @@ body {
 	background-color: #293449;
 	padding: 12px 0;
 	width: 150px;
-	font-size: 27px;
+	font-size: 17px;
 	line-height: 1.1;
 	text-decoration: none;
 	color: #fff;
