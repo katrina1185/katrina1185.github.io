@@ -1,11 +1,20 @@
 @charset "utf-8";
 /* CSS Document */
 
-/* supported: IE 9 +, android 4.2.2 + */
+/* supported:
+IE 9 +
+Chrome 49.0
+Fierfox 44.0
+Opera 36.0
+safari 9.0
+
+android 5.0 + , iOS 8.3 +
+*/
 
 /*
-opacity: IE 9 +, android 4.2 + 
+opacity: IE 9 +, android 4.2.2 + 
 box-sizing: IE 8 + android 4.2 + 
+box-shadow: IE 9 +, android 4.2.2 + 
 */
 
 /* Общие стили */
@@ -52,6 +61,9 @@ body {
 	text-transform: uppercase;
 	color: #fff;
 	overflow: hidden; /* Скрываем текст при переполнении */
+	/*
+	-webkit-box-shadow: 0px 5px #b52933; /*Safari < 5.1, Android < 4.0 */
+	box-shadow: 0px 5px #b52933;
 }
 .search-form {
 	display: inline-block; /* Делаем блочно-строчными */
